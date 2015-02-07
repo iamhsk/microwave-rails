@@ -1,0 +1,20 @@
+---
+driver:
+  name: vagrant
+  synced_folders:
+    - ["../", "/home/vagrant/microwave-app"]
+  network:
+    - ["forwarded_port", {guest: 4000, host: 5000}]
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.6
+    driver:
+      box: chef/centos-6.6
+
+suites:
+  - name: microwave-rails-chef
+    run_list: 
+      - microwave-rails-chef
