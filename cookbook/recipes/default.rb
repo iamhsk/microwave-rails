@@ -1,9 +1,10 @@
 include_recipe "rbenv::default"
 include_recipe "rbenv::ruby_build"
-include_recipe "postgresql::server_redhat"
+# include_recipe "database::postgresql"
+include_recipe "postgresql::server_debian"
+include_recipe "nodejs"
 
-
-RUBY_VERSION = "2.1.1"
+RUBY_VERSION = "2.2.2"
 
 rbenv_ruby "#{RUBY_VERSION}" do
   ruby_version "#{RUBY_VERSION}"

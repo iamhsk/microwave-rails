@@ -2,17 +2,17 @@
 driver:
   name: vagrant
   synced_folders:
-    - ["../", "/home/vagrant/microwave-app"]
+    - ["../rails-app", "/home/vagrant/microwave-workspace"]
   network:
-    - ["forwarded_port", {guest: 4000, host: 5000}]
+    - ["forwarded_port", {guest: 3000, host: 5000}]
 
 provisioner:
   name: chef_solo
 
 platforms:
-  - name: centos-6.6
+  - name: ubuntu-14.04
     driver:
-      box: chef/centos-6.6
+      box: microwave/trusty64
 
 suites:
   - name: microwave-rails-chef

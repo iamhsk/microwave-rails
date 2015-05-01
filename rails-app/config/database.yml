@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  username: postgres
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: db/microwave-development
+
+test:
+  <<: *default
+  database: db/microwave-test
+
+production:
+  <<: *default
+  database: db/microwave-production
