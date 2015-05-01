@@ -4,5 +4,5 @@ cookbook/.kitchen/
 
 /log/*
 !/log/.keep
-/tmp
+*/tmp
 .DS_Store
