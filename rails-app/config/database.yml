@@ -1,17 +1,19 @@
 default: &default
   adapter: postgresql
+  host: 127.0.0.1
   username: postgres
+  password: microwave
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: db/microwave-development
+  database: microwave-development
 
 test:
   <<: *default
-  database: db/microwave-test
+  database: microwave-test
 
 production:
   <<: *default
-  database: db/microwave-production
+  database: microwave-production
