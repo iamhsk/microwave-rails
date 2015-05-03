@@ -2,7 +2,7 @@
 .kitchen/
 cookbook/.kitchen/
 
-/log/*
+*/log/*
 !/log/.keep
 */tmp
 .DS_Store

@@ -13,4 +13,5 @@ Microwave MVC provides basic templates for different tech stacks so you can quic
     $ vagrant ssh
     $ cd microwave-workspace
     $ bundle install
+    $ bundle exec rake db:create
     $ bundle exec rails s
