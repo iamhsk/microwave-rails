@@ -1,12 +1,16 @@
-microwave-rails-chef
-====================
+# microwave-rails-chef
+Microwave MVC provides basic templates for different tech stacks so you can quickly get started with web development.
 
-Microwave provides base templates for different backend technologies so you can quickly get started with web development.
+#### What you get out of this Microwave:
+* Ruby 2.2 & Rails 4.2
+* Postgres
+* Ubuntu 14.04 Vagrant box
+* provisioned using Chef / Test Kitchen / Berkshelf
+* optimized for deployment to Heroku
 
-microwave-rails-chef is an instance of a Rails 4 app using Chef to provision a vagrantbox.
-
-`$ vagrant up`
-`$ vagrant ssh`
-`$ cd microwave-workspace`
-`$ bundle install`
-`$ bundle exec rails s`
+## 1-Minute Ruby on Rails
+    $ vagrant up
+    $ vagrant ssh
+    $ cd microwave-workspace
+    $ bundle install
+    $ bundle exec rails s
