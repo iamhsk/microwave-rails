@@ -4,9 +4,15 @@ Microwave MVC provides basic templates for different tech stacks so you can quic
 #### What you get out of this Microwave:
 * Ruby 2.2 & Rails 4.2
 * Postgres
+* Puma Webserver
 * Ubuntu 14.04 Vagrant box
 * provisioned using Chef / Test Kitchen / Berkshelf
 * optimized for deployment to Heroku
+
+#### Dependencies:
+* Virtualbox
+* Vagrant
+* ChefDK
 
 ## 1-Minute Ruby on Rails
     $ vagrant plugin install vagrant-berkshelf
@@ -16,5 +22,5 @@ Microwave MVC provides basic templates for different tech stacks so you can quic
     $ cd microwave-workspace
     $ bundle install
     $ bundle exec rake db:create
-    $ bundle exec rails s
-    see it ready to go at http://localhost:5000!
+    $ bundle exec puma
+    * See it ready to go at http://localhost:5000!

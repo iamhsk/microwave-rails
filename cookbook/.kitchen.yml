@@ -4,7 +4,8 @@ driver:
   synced_folders:
     - ["../rails-app", "/home/vagrant/microwave-workspace"]
   network:
-    - ["forwarded_port", {guest: 3000, host: 5000}]
+    - ["forwarded_port", {guest: 3000, host: 4000}]
+    - ["forwarded_port", {guest: 9292, host: 5000}]
 
 provisioner:
   name: chef_solo
