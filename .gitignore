@@ -1,5 +1,6 @@
 /.bundle
 .kitchen/
+.vagrant/
 cookbook/.kitchen/
 
 */log/*
