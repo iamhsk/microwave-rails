@@ -17,10 +17,12 @@ Microwave MVC provides basic, cross-platform-compatible templates for different 
 ## 1-Minute Ruby on Rails
     $ vagrant plugin install vagrant-berkshelf
     $ cd rails-app
-    $ vagrant up
-    $ vagrant ssh
+    $ vagrant up                    # provisions the box the first time
+    $ vagrant halt && vagrant up    # this will allow ubuntu-desktop to load
+    * Login with user vagrant and password vagrant
+    * Open Terminal
     $ cd microwave-workspace
     $ bundle install
     $ bundle exec rake db:create
     $ bundle exec puma
-    * See it ready to go at http://localhost:5000!
+    * See it ready to go at http://localhost:9292 on the guest VM!
