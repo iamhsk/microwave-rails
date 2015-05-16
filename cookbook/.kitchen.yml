@@ -4,16 +4,16 @@ driver:
   synced_folders:
     - ["../rails-app", "/home/vagrant/microwave-workspace"]
   network:
-    - ["forwarded_port", {guest: 3000, host: 4000}]
-    - ["forwarded_port", {guest: 9292, host: 5000}]
+    - ["forwarded_port", {guest: 3000, host: 4001}]
+    - ["forwarded_port", {guest: 9292, host: 5001}]
 
 provisioner:
   name: chef_solo
 
 platforms:
-  - name: ubuntu-14.04
+  - name: microwave-rails-box
     driver:
-      box: microwave/trusty64
+      box: ubuntu/trusty64
 
 suites:
   - name: microwave-rails-chef

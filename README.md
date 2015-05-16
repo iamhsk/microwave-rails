@@ -1,5 +1,5 @@
-# microwave-rails-chef
-Microwave MVC provides basic templates for different tech stacks so you can quickly get started with web development.
+# microwave-rails
+Microwave MVC provides basic, cross-platform-compatible templates for different tech stacks so you can quickly get started with web development.
 
 #### What you get out of this Microwave:
 * Ruby 2.2 & Rails 4.2
