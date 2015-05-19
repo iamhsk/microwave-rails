@@ -15,6 +15,7 @@ Microwave MVC provides basic, cross-platform-compatible templates for different 
 * ChefDK
 
 ## 1-Minute Ruby on Rails
+    $ vagrant plugin install vagrant-cachier
     $ vagrant plugin install vagrant-berkshelf
     $ cd rails-app
     $ vagrant up

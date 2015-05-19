@@ -11,7 +11,7 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: microwave-rails-box
+  - name: microwave-rails-kitchen-box
     driver:
       box: ubuntu/trusty64
 
