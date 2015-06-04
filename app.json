@@ -1,5 +1,8 @@
 {
-  "name": "Your First Live Rails App",
-  "description": "A barebones Rails 4 app",
-  "repository": "https://github.com/Microwave-MVC/microwave-rails"
+  "name": "Vanilla Rails App",
+  "description": "A simple Rails 4 app",
+  "repository": "https://github.com/Microwave-MVC/microwave-rails",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-ruby"
+  }
 }
