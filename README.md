@@ -1,5 +1,5 @@
 # microwave-rails
-Microwave MVC provides basic, cross-platform-compatible templates for different tech stacks so you can quickly get started with web development.
+Microwave MVC provides cross-platform-compatible templates for different tech stacks so you can quickly get started with web development.
 
 #### What you get out of this Microwave:
 * Ruby 2.2 & Rails 4.2
@@ -10,9 +10,9 @@ Microwave MVC provides basic, cross-platform-compatible templates for different 
 * optimized for deployment to Heroku
 
 #### Dependencies:
-* Virtualbox
-* Vagrant
-* ChefDK
+* Virtualbox >= 4.3.26
+* Vagrant >= 1.5.3
+* ChefDK >= 0.6.0
 
 ## 1-Minute Ruby on Rails
     $ vagrant plugin install vagrant-cachier
@@ -24,4 +24,6 @@ Microwave MVC provides basic, cross-platform-compatible templates for different 
     $ bundle install
     $ bundle exec rake db:create
     $ bundle exec puma
-    * See it ready to go at http://localhost:5000!
+    * See it on your browser at http://localhost:5000!
+
+> [![Go Live!](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)

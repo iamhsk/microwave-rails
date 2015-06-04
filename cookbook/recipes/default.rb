@@ -1,7 +1,5 @@
 include_recipe "rbenv::default"
 include_recipe "rbenv::ruby_build"
-include_recipe "postgresql::server"
-include_recipe "nodejs"
 
 RUBY_VERSION = "2.2.2"
 
@@ -13,3 +11,14 @@ end
 rbenv_gem "bundler" do
   ruby_version "#{RUBY_VERSION}"
 end
+
+# execute "bundle install" do
+#   not_if "bundle check"
+# end
+
+# execute "create_database" do
+#   command "bundle exec rake db:create"
+# end
+
+include_recipe "postgresql::server"
+include_recipe "nodejs"
