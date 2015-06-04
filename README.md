@@ -29,5 +29,8 @@ Microwave MVC provides cross-platform-compatible templates for different tech st
 ## Go Live!
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
+## Authors
+Copyright 2015 Valerie Roske (@valerie-roske).
+
 ## License
 GNU General Public License V2.0 (see [License](https://github.com/Microwave-MVC/microwave-rails/blob/master/LICENSE))
