@@ -26,4 +26,5 @@ Microwave MVC provides cross-platform-compatible templates for different tech st
     $ bundle exec puma
     * See it on your browser at http://localhost:5000!
 
-> [![Go Live!](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Go Live!
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
