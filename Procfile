@@ -1,1 +1,1 @@
-web: sh -c 'cd rails-app && bundle exec puma'
+web: bundle exec puma
