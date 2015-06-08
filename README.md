@@ -19,8 +19,6 @@ Please make sure you have downloaded the following before proceeding:
     $ vagrant up
     $ vagrant ssh
     $ cd microwave-workspace
-    $ bundle install
-    $ bundle exec rake db:create
     $ bundle exec puma
 See it on your browser at http://localhost:4000!
 

@@ -25,9 +25,17 @@ describe command('which bundle') do
   its(:stdout) { should match '/opt/rbenv/shims/bundle' }
 end
 
+describe command('bundle install') do
+  its(:stdout) { should match 'Bundle complete!'}
+end
+
 # Postgresql
 describe service('postgresql') do
   it { should be_running }
+end
+
+describe command('bundle exec rake db:create') do
+  its(:exit_status) { should eq 0 }
 end
 
 # Node.js (required by Rails 3 asset pipeline)
