@@ -27,7 +27,7 @@ Microwave MVC provides cross-platform-compatible templates for different tech st
     * See it on your browser at http://localhost:5000!
 
 ## Go Live!
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Microwave-MVC/rails-app)
 
 ## Authors
 Copyright 2015 Valerie Roske (@valerie-roske).
