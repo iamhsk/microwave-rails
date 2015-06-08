@@ -2,7 +2,4 @@
   "name": "Vanilla Rails App",
   "description": "A simple Rails 4 app",
   "repository": "https://github.com/Microwave-MVC/rails-app",
-  "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-ruby"
-  }
 }
