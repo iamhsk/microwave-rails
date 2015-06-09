@@ -20,7 +20,12 @@
 
     <section class="main-content">
       <h1>
-<a id="what-you-get-out-of-this-microwave" class="anchor" href="#what-you-get-out-of-this-microwave" aria-hidden="true"><span class="octicon octicon-link"></span></a>What you get out of this Microwave</h1>
+<a id="microwave-rails" class="anchor" href="#microwave-rails" aria-hidden="true"><span class="octicon octicon-link"></span></a>microwave-rails</h1>
+
+<p>Microwave MVC provides cross-platform-compatible templates for different tech stacks so you can quickly get started with web development. Whether you're on Windows, Linux, or Mac, no more fussing with configuration for hours -- just ready, set, Rails!</p>
+
+<h4>
+<a id="what-you-get-out-of-this-microwave" class="anchor" href="#what-you-get-out-of-this-microwave" aria-hidden="true"><span class="octicon octicon-link"></span></a>What you get out of this Microwave</h4>
 
 <ul>
 <li>Ruby 2.2 &amp; Rails 4.2</li>
@@ -29,13 +34,32 @@
 <li>Ubuntu 14.04 Vagrant box</li>
 <li>provisioned using Chef / Test Kitchen / Berkshelf</li>
 <li>optimized for deployment to Heroku</li>
-<li>cross-platform-compatible (yes, Windows users rejoice!)</li>
+</ul>
+
+<h4>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h4>
+
+<p>Please make sure you have downloaded the following before proceeding:</p>
+
+<ul>
+<li>
+<a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a> &gt;= 4.3.26</li>
+<li>
+<a href="https://www.vagrantup.com/downloads.html">Vagrant</a> &gt;= 1.7.2</li>
+<li>
+<a href="https://downloads.chef.io/chef-dk/">ChefDK</a> &gt;= 0.6.0</li>
 </ul>
 
 <h2>
-<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors</h2>
+<a id="1-minute-ruby-on-rails" class="anchor" href="#1-minute-ruby-on-rails" aria-hidden="true"><span class="octicon octicon-link"></span></a>1-Minute Ruby on Rails</h2>
 
-<p>Copyright 2015 Valerie Roske (<a href="https://github.com/valerie-roske" class="user-mention">@valerie-roske</a>).</p>
+<pre><code>$ vagrant up
+$ vagrant ssh
+$ cd microwave-workspace
+$ bundle exec puma
+</code></pre>
+
+<p>See it on your browser at http://localhost:4000!</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Microwave-MVC/microwave-rails">microwave-rails</a> is maintained by <a href="https://github.com/Microwave-MVC">Microwave-MVC</a>.</span>
