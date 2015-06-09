@@ -2,6 +2,8 @@ MICROWAVE_HOME = "/home/vagrant/microwave-workspace"
 
 include_recipe "rbenv::default"
 include_recipe "rbenv::ruby_build"
+include_recipe "postgresql::server"
+include_recipe "nodejs"
 
 RUBY_VERSION = "2.2.2"
 
@@ -18,10 +20,6 @@ execute "bundle_install" do
   command "cd #{MICROWAVE_HOME} && bundle install"
 end
 
-include_recipe "postgresql::server"
-
 execute "create_database" do
   command "cd #{MICROWAVE_HOME} && bundle exec rake db:create"
 end
-
-include_recipe "nodejs"
