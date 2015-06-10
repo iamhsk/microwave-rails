@@ -29,4 +29,4 @@ See it on your browser at http://localhost:4000!
 Copyright 2015 Valerie Roske (@valerie-roske).
 
 ## License
-GNU General Public License V2.0 (see [License](https://github.com/Microwave-MVC/microwave-rails/blob/master/LICENSE))
+MIT License (see [License](https://github.com/Microwave-MVC/microwave-rails/blob/master/LICENSE))
