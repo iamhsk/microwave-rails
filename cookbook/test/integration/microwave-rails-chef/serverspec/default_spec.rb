@@ -35,7 +35,7 @@ describe service('postgresql') do
   it { should be_running }
 end
 
-describe command('cd #{MICROWAVE_HOME} && bundle exec rake db:create') do
+describe command('cd #{MICROWAVE_HOME} && bundle exec rake db:create db:migrate') do
   its(:exit_status) { should eq 0 }
 end
 

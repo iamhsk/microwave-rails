@@ -21,5 +21,5 @@ execute "bundle_install" do
 end
 
 execute "create_database" do
-  command "cd #{MICROWAVE_HOME} && bundle exec rake db:create"
+  command "cd #{MICROWAVE_HOME} && bundle exec rake db:create db:migrate"
 end
