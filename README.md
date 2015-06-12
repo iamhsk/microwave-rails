@@ -10,19 +10,26 @@ Microwave MVC provides cross-platform-compatible templates for different tech st
 * optimized for deployment to Heroku
 
 #### Dependencies
-Please make sure you have downloaded the following before proceeding:
+Please make sure you have downloaded the following before proceeding. You can check which versions you may have already installed by executing the commands below in your Terminal.
 * [Virtualbox](https://www.virtualbox.org/wiki/Downloads) >= 4.3.26
+    * `$ vboxmanage -v`   
 * [Vagrant](https://www.vagrantup.com/downloads.html) >= 1.7.2
+    * `$ vagrant -v` 
 * [ChefDK](https://downloads.chef.io/chef-dk/) >= 0.6.0
+    * `$ chef -v` 
 
-## 1-Minute Ruby on Rails
+## EZ Ruby on Rails
+Once you have installed the dependencies, fork this repository. (You can change the name of the repository in your settings.) Next, `git clone` your fork to your local machine. From the root directory of your project execute the commands below:
+
     $ vagrant up
     $ vagrant ssh
     $ cd microwave-workspace
     $ bundle exec puma
-See it on your browser at http://localhost:4000!
+See it on your browser at `http://localhost:4000`!
 
 ## Go Live!
+You'll need a Heroku account to deploy your app. When you're ready, hit the button to go live!
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Microwave-MVC/rails-app)
 
 ## Authors
